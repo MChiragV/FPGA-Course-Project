@@ -23,4 +23,5 @@ We decided that 16x16 would be the best size we can work with because of the fol
 MAX_DICT_SIZE used as 2048 to capture as many unique patterns as possible.
 MAX_SEQ_LEN used as 32. This can be increased more for capturing complex and lengthy patterns, but due to BRAMs exceeding max capacity we had to use this.
 
-
+To solve this, we used ZedBoard which has much more BRAMs than Basys3.
+![Screenshot 2024-11-08 222858](https://github.com/user-attachments/assets/6f3431fd-1ab3-4475-b9f2-3631008914e7)
