@@ -7,7 +7,8 @@ So we can use the rising edge of this signal as a trigger to indicate which is t
 ```
 set_property CONTROL.TRIGGER_POSITION 0 [get_hw_ilas hw_ila_1]
 ```
-![image](https://github.com/user-attachments/assets/97332443-a623-42e3-b729-51ba0a7ae870)
+![97332443-a623-42e3-b729-51ba0a7ae870-1](https://github.com/user-attachments/assets/63312353-6f26-4a05-8cf8-5e0ac0bd4617)
+
 
 ## b) BRAM Usage
 We have 3 parameters in our CPP code which determine the usage of BRAMs:
@@ -24,4 +25,5 @@ MAX_DICT_SIZE used as 2048 to capture as many unique patterns as possible.
 MAX_SEQ_LEN used as 32. This can be increased more for capturing complex and lengthy patterns, but due to BRAMs exceeding max capacity we had to use this.
 
 To solve this, we used ZedBoard which has much more BRAMs than Basys3.
-![Screenshot 2024-11-08 222858](https://github.com/user-attachments/assets/6f3431fd-1ab3-4475-b9f2-3631008914e7)
+![384488122-6f3431fd-1ab3-4475-b9f2-3631008914e7](https://github.com/user-attachments/assets/0eb99eed-34cd-4609-9ce3-817c7d7c6f16)
+
