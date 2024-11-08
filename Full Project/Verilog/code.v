@@ -2,8 +2,8 @@ module image_compress(
     input wire clk
 );
     // Parameters
-    parameter WIDTH = 32;
-    parameter HEIGHT = 32;
+    parameter WIDTH = 16;
+    parameter HEIGHT = 16;
     parameter TOTAL_PIXELS = WIDTH * HEIGHT;
 
     // BRAM signals - expanded for RGB
