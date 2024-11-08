@@ -4,7 +4,7 @@ Implementation of compression on images
 https://gitlab.com/libtiff/libtiff/-/blob/master/tools/tiffcp.c
 
 # Steps to run
-
+1. Run the file [here](https://github.com/MChiragV/FPGA-Course-Project/blob/main/Full%20Project/C/rgb_tiff_to_coe.c) to convert the input image to coe file.
 
 ### Waveform:
 ![Screenshot 2024-11-08 002913](https://github.com/user-attachments/assets/48e6cbde-508f-4097-96f0-1870408b6df1)
