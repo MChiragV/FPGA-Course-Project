@@ -12,6 +12,7 @@ void init_dictionary(short dictionary[MAX_DICT_SIZE][MAX_SEQ_LEN], short &dict_s
 
 // Find the longest match in the dictionary
 short find_in_dictionary(short dictionary[MAX_DICT_SIZE][MAX_SEQ_LEN], short dict_size, short *seq, short seq_len) {
+    # pragma HLS unroll
     find_in_dictionary_label0:for (short i = 0; i < dict_size; i++) {
         bool match = true;
         find_in_dictionary_label3:for (short j = 0; j < seq_len; j++) {
