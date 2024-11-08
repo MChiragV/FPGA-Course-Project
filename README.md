@@ -31,7 +31,7 @@ gcc rgb_tiff_to_coe.c -o rgb_tiff_to_coe -ltiff
 ![image](https://github.com/user-attachments/assets/97332443-a623-42e3-b729-51ba0a7ae870)
 
 ### How to view Image:
-Run the python code (here)[https://github.com/MChiragV/FPGA-Course-Project/blob/main/Full%20Project/Python/decompress_and_display.py] to decompress and display the output image. It also shows the sizes of the compressed and original image.
+Run the python code [here](https://github.com/MChiragV/FPGA-Course-Project/blob/main/Full%20Project/Python/decompress_and_display.py) to decompress and display the output image. It also shows the sizes of the compressed and original image.
 
 ### Waveform:
 ![Screenshot 2024-11-08 002913](https://github.com/user-attachments/assets/48e6cbde-508f-4097-96f0-1870408b6df1)
