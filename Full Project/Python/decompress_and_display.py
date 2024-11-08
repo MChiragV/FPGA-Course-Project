@@ -106,4 +106,4 @@ def read_and_decompress(file_path, width, height):
     print("\nImage saved as 'output_image3.tiff'")
 
 # Example usage
-read_and_decompress("iladatanew.csv", width=32, height=32)
+read_and_decompress("iladatanew.csv", width=16, height=16)
