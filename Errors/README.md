@@ -7,6 +7,7 @@ So we can use the rising edge of this signal as a trigger to indicate which is t
 ```
 set_property CONTROL.TRIGGER_POSITION 0 [get_hw_ilas hw_ila_1]
 ```
+![image](https://github.com/user-attachments/assets/97332443-a623-42e3-b729-51ba0a7ae870)
 
 ## b) BRAM Usage
 We have 3 parameters in our CPP code which determine the usage of BRAMs:
@@ -22,9 +23,4 @@ We decided that 16x16 would be the best size we can work with because of the fol
 MAX_DICT_SIZE used as 2048 to capture as many unique patterns as possible.
 MAX_SEQ_LEN used as 32. This can be increased more for capturing complex and lengthy patterns, but due to BRAMs exceeding max capacity we had to use this.
 
-### Simulation:
-![image](https://github.com/user-attachments/assets/64862aab-8f1e-495a-8230-11d3a8f0922e)
-
-### ILA:
-![image](https://github.com/user-attachments/assets/8f944c3d-0de8-4cd0-8a5b-33bb82ad8682)
 
