@@ -5,7 +5,7 @@
 #include <iostream>
 #define MAX_DICT_SIZE 2048  // reduced to handle smaller image complexity
 #define MAX_SEQ_LEN 32     // reduced for small image patterns
-#define MAX_INPUT_SIZE 1024 // matches the number of pixels in a 32x32 image
+#define MAX_INPUT_SIZE 256 // matches the number of pixels in a 32x32 image
 
 
 void init_dictionary(short dictionary[MAX_DICT_SIZE][MAX_SEQ_LEN], short &dict_size);
