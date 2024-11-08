@@ -13,11 +13,11 @@ set_property CONTROL.TRIGGER_POSITION 0 [get_hw_ilas hw_ila_1]
 ## b) BRAM Usage
 We have 3 parameters in our CPP code which determine the usage of BRAMs:
 1. MAX_DICT_SIZE 
-Size of the dictionary to store unique patterns.  
+- Size of the dictionary to store unique patterns.  
 2. MAX_SEQ_LEN
-	Size of each pattern/sequence.
+- Size of each pattern/sequence.
 3. MAX_INPUT_SIZE
-	Size of the input array.
+- Size of the input array.
 After experimenting with these values, we found out that all three parameters affect the BRAM usage linearly. 
 We decided that 16x16 would be the best size we can work with because of the following reasons:
 16x16 input means that MAX_INPUT_SIZE needs to be 256.
