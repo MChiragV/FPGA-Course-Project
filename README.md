@@ -28,7 +28,7 @@ gcc rgb_tiff_to_coe.c -o rgb_tiff_to_coe -ltiff
    set_property CONTROL.TRIGGER_POSITION 0 [get_hw_ilas hw_ila_1]
    ```
 6. You can now export this array as a csv file.
-![image](https://github.com/MChiragV/FPGA-Course-Project/blob/main/97332443-a623-42e3-b729-51ba0a7ae870.png)
+![image](97332443-a623-42e3-b729-51ba0a7ae870.png)
 
 ### How to view Image:
 Run the python code [here](https://github.com/MChiragV/FPGA-Course-Project/blob/main/Full%20Project/Python/decompress_and_display.py) to decompress and display the output image. It also shows the sizes of the compressed and original image.
